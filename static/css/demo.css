@@ -1,0 +1,5 @@
+﻿body { background-color: #fff }
+.class1 { border-color: #f00; border: 1px solid #f00; margin: 5px; }
+#id1 { border-color: #ffd800; color: #ffffff; }
+label { padding: 5px; color: #0094ff; }
+.btn { border-color: #ffd800; border: 1px solid #ffd800;  color: #000; background-color: #fff }

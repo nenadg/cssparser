@@ -1,0 +1,32 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Css parser demo</title>
+
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/static/css/demo.css")" />
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="@Url.Content("~/static/js/demo.js")"></script>
+</head>
+<body>
+    <div>
+        <form method="post" action="/" id="super-form">
+            
+            <input type="text" class="class1" id="element-class1" name="class.class1.border-color" /><label>.class1 border color</label>
+            <br />
+            <input type="text" class="class1" id="element-id1" name="id.id1.background-color" /><label>#id1 background color</label>
+            <br />
+            <input type="text" class="class1" id="element-body" name="element.body.background-color" /><label>body background color</label>
+            <br />
+            <input type="button" value="Sumbit" class="btn" id="submit" />
+           
+        </form>
+    </div>
+</body>
+</html>
